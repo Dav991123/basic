@@ -1,0 +1,117 @@
+
+/* iPad in landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)and (-webkit-min-device-pixel-ratio: 2) and (orientation : landscape) {}
+
+/* iPad in portrait */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)and (-webkit-min-device-pixel-ratio: 2) and (orientation : portrait) {
+  .scrolle{
+    width: 90%;
+    height: 65vh;
+  }
+}
+
+  /* iPad pro in landscape */
+  @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px)and (-webkit-min-device-pixel-ratio: 2) and (orientation : landscape) {
+    .child_section{
+      width: 70%;
+      height: 60%;
+    }
+  }
+  @media only screen and (min-device-width :320px) and (max-device-width:768px){
+    /*icon scroll*/
+  .icon-scroll{
+    display: none;
+  }
+  .mouse_pad > a:first-child{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 46%;
+    width: 2.2rem;
+    animation:hands .5s infinite ease-out alternate;
+  }
+  @keyframes hands{
+    0% {
+      bottom: 15px;
+  }
+
+  100% {
+      bottom: 10px;
+  }
+
+  }
+
+  .mouse_pad > a:first-child  img{
+       width: 80%;
+    }
+
+    /*icon scroll*/
+#needHelp>section{
+    background-size: 100%;
+}
+#needHelp > section > article > span:first-of-type{
+  font-size: 1.1rem;
+  color: #4a4848
+}
+#needHelp > section > article > span:last-of-type{
+  font-size: 1rem;
+  color: #4a4848;
+}
+#GetStarted{
+  width: 8rem;
+  height: 2rem;
+  font-size: 0.8rem
+}
+.floating_img > img:nth-child(1){
+    width: 3rem;
+    //Andriod
+}
+.floating_img > img:nth-child(2){
+    width: 2.5rem;
+    //C
+}
+.floating_img > img:nth-child(3){
+    width: 2.3rem;
+    //CSS
+}
+.floating_img > img:nth-child(4){
+    width: 3.8rem;
+    right: 15.5%;
+    //PHP
+}
+.floating_img > img:nth-child(5){
+    top: 10%;
+    right: 25%;
+    width: 2.5rem;
+    //Python
+}
+.floating_img > img:nth-of-type(6){
+    bottom: 34%;
+    width: 2.2rem;
+    //HTML
+}
+.floating_img > img:nth-of-type(7){
+    right: 13.4%;
+    bottom: 15%;
+    width: 2.5rem;
+    //C++
+}
+footer > section:nth-of-type(2) span{
+  font-size: 2.5vw
+}
+  }
+
+
+  /* iPad pro in portrait */
+  @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px)and (-webkit-min-device-pixel-ratio: 2) and (orientation : portrait) {
+    .child_section{
+      width: 80%;
+      height: 60%;
+    }
+    .section-wrap{
+      height: 80vh;
+    }
+    footer{
+      height: 30vh;
+    }
+  }
